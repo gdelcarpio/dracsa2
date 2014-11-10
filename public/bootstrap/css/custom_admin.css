@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+body { padding-top: 70px; }
+
+/* bordes del menu*/
+.lipro i{color:#32A037;}
+.lipro.dropdown{border-bottom:2px solid #CCC;}
+.lipro:hover{border-bottom:2px solid #32A037;}/*verde*/
+.lipro.dropdown.open{border-bottom:2px solid #32A037;}
+.lipro ul{background-color:#060;}
+.lipro ul a{color:#FFF;}
+
+.liord{border-bottom:2px solid #CCC;}
+.liord i{color:#4A32D6}
+.liord.active{border-bottom:2px solid #4A32D6;}/*azul*/
+.liord:hover{border-bottom:2px solid #4A32D6;}
+.lirep{border-bottom:2px solid #CCC;}
+.lirep i{color:#C69;}
+.lirep.active{border-bottom:2px solid #C69;}/*fuccia*/
+.lirep:hover{border-bottom:2px solid #C69;}
+.licon{border-bottom:2px solid #CCC;}
+.licon i{color:#C00;}
+.licon.active{border-bottom:2px solid #C00;}/*rojo*/
+.licon:hover{border-bottom:2px solid #C00;}
+
+
+.navbar-nav>li>.dropdown-menu {	margin-top: 2px;}
+.navbar-nav>li{	border-right:1px solid #EAEAEA;}
+
+
+.productos .nav-pills>li.active>a, .productos  .nav-pills>li.active>a:hover, .productos  .nav-pills>li.active>a:focus {
+	color: #fff; background-color: #32A037; text-decoration: underline;
+}
+
+
+.nav-pills>li>a {position: relative; display: block; padding: 5px 8px;}
+
